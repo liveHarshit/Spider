@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a"
+    tools:context="com.example.liveharshit.spider.calculator">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:text="Speaking Calculator"
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView17"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:inputType="number"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText5"
+        android:layout_alignRight="@+id/editText5"
+        android:layout_below="@+id/editText5"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText5"
+        android:layout_alignStart="@+id/editText5"
+        android:layout_below="@+id/textView17"
+        android:layout_marginTop="33dp"
+        android:text="Enter numbers to calculate -"
+        android:textColor="#241a8c"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText8"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/plus" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/button11"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/minus" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11"
+        android:layout_below="@+id/button11"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/multiply" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/button17"
+        android:layout_alignStart="@+id/button17"
+        android:layout_alignTop="@+id/button18"
+        android:background="@drawable/divide" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignTop="@+id/button17"
+        android:layout_toEndOf="@+id/textView18"
+        android:layout_toRightOf="@+id/textView18"
+        android:background="@drawable/percentage" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/button20"
+        android:layout_alignStart="@+id/button20"
+        android:layout_alignTop="@+id/button19"
+        android:text="Clear" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText8"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="@color/colorAccent"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
