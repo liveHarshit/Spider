@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.liveharshit.spider.Home"
-    android:background="@drawable/a">
+    android:background="@drawable/a"
+    tools:context="com.example.liveharshit.spider.Home">
 
 
     <Button
@@ -43,8 +42,8 @@
         android:layout_marginLeft="18dp"
         android:layout_marginStart="18dp"
         android:text="Sign out"
-        android:textStyle="bold"
-        android:textColor="#ff0000"/>
+        android:textColor="#ff0000"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView15"
@@ -55,8 +54,8 @@
         android:layout_marginTop="50dp"
         android:text="Let's have fun"
         android:textColor="@color/colorAccent"
-        android:textStyle="bold"
-        android:textSize="25dp"/>
+        android:textSize="25dp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/button6"
@@ -110,8 +109,8 @@
         android:layout_alignStart="@+id/button6"
         android:layout_below="@+id/button6"
         android:text="  Calculator"
-        android:textStyle="bold"
-        android:textColor="#0006cd"/>
+        android:textColor="#0006cd"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView20"
@@ -121,7 +120,7 @@
         android:layout_alignLeft="@+id/button7"
         android:layout_alignStart="@+id/button7"
         android:text="Text to Speech"
-        android:textStyle="bold"
-        android:textColor="#0006cd"/>
+        android:textColor="#0006cd"
+        android:textStyle="bold" />
 
 </RelativeLayout>

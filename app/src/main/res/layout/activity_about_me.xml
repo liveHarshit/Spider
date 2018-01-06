@@ -1,49 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.liveharshit.spider.AboutMe"
-    android:background="@drawable/a">
+    android:background="@drawable/a"
+    tools:context="com.example.liveharshit.spider.AboutMe">
 
+    <ImageView
+        android:id="@+id/dp_image_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/dp" />
 
     <TextView
         android:id="@+id/textView9"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="20dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
+        android:layout_alignBottom="@+id/dp_image_view"
+        android:gravity="center"
+        android:text="Harshit khandelwal"
+        android:textColor="#6161ff"
         android:textSize="30dp"
-        android:textColor="#ff0000"
-        android:textStyle="bold"
-        android:text="Harshit khandelwal"/>
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView9"
-        android:layout_alignStart="@+id/textView9"
         android:layout_below="@+id/textView9"
-        android:text="The LNM Institute of Information technology, Jaipur"
-        android:textSize="20dp"
-        android:textColor="#000000"/>
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:text="@string/college"
+        android:textColor="#000000"
+        android:textSize="20dp" />
 
     <TextView
         android:id="@+id/textView12"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textView11"
-        android:layout_alignStart="@+id/textView11"
+        android:layout_alignParentBottom="true"
         android:layout_below="@+id/textView11"
-        android:text="Contact: +91-8387835209\nEmail: live.harshit@hotmail.com"
-        android:textStyle="bold"
-        android:textColor="#000f87"/>
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="20dp"
+        android:gravity="end"
+        android:text="@string/contact_details"
+        android:textColor="#123456"
+        android:textStyle="bold" />
 
 
 </RelativeLayout>
