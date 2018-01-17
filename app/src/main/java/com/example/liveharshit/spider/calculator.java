@@ -45,7 +45,7 @@ public class calculator extends AppCompatActivity {
             public void onClick(View view) {
                 String s1=e1.getText().toString();
                 String s2=e2.getText().toString();
-                if(s1.equals("")||s1.equals("")) {
+                if(s1.equals("")&&s1.equals("")) {
                     Toast.makeText(calculator.this, "Fill all", Toast.LENGTH_SHORT).show();
                 }
                 else {
@@ -63,7 +63,7 @@ public class calculator extends AppCompatActivity {
             public void onClick(View view) {
                 String s1=e1.getText().toString();
                 String s2=e2.getText().toString();
-                if(s1.equals("")||s1.equals("")) {
+                if(s1.equals("")&&s1.equals("")) {
                     Toast.makeText(calculator.this, "Fill all", Toast.LENGTH_SHORT).show();
                 }
                 else {
@@ -81,7 +81,7 @@ public class calculator extends AppCompatActivity {
             public void onClick(View view) {
                 String s1=e1.getText().toString();
                 String s2=e2.getText().toString();
-                if(s1.equals("")||s1.equals("")) {
+                if(s1.equals("")&&s1.equals("")) {
                     Toast.makeText(calculator.this, "Fill all", Toast.LENGTH_SHORT).show();
                 }
                 else {
@@ -99,7 +99,7 @@ public class calculator extends AppCompatActivity {
             public void onClick(View view) {
                 String s1=e1.getText().toString();
                 String s2=e2.getText().toString();
-                if(s1.equals("")||s1.equals("")) {
+                if(s1.equals("")&&s1.equals("")) {
                     Toast.makeText(calculator.this, "Fill all", Toast.LENGTH_SHORT).show();
                 }
                 else {
@@ -117,7 +117,7 @@ public class calculator extends AppCompatActivity {
             public void onClick(View view) {
                 String s1=e1.getText().toString();
                 String s2=e2.getText().toString();
-                if(s1.equals("")||s1.equals("")) {
+                if(s1.equals("")&&s1.equals("")) {
                     Toast.makeText(calculator.this, "Fill all", Toast.LENGTH_SHORT).show();
                 }
                 else {
