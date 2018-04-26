@@ -3,4 +3,4 @@ This app consist folloing functions -
 -> Speaking calculator, 
 -> Text to speech. LocalENGLISH Language.
 
-![Report screenshot](https://github.com/liveHarshit/Spider/download_resize_jpg.jpeg)
+![Report screenshot](https://github.com/liveHarshit/Spider/master/download_resize_jpg.jpeg)
